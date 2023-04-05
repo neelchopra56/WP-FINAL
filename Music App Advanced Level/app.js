@@ -1,85 +1,152 @@
-const music = new Audio('vande.mp3')
-
-// create Array 3232
-
 const songs = [
   {
-    id: '1',
-    songName: ` On My Way <br>
-        <div class="subtitle">Alan Walker</div>`,
-    poster: 'img/1.jpg',
+      id:'1',
+      songName:` On My Way <br>
+      <div class="subtitle">Alan Walker</div>`,
+      poster: "img/1.jpg"
   },
   {
-    id: '2',
-    songName: ` Alan Walker-Fade <br>
-        <div class="subtitle">Alan Walker</div>`,
-    poster: 'img/2.jpg',
+      id:'2',
+      songName:` Alan Walker-Fade <br>
+      <div class="subtitle">Alan Walker</div>`,
+      poster: "img/2.jpg"
   },
-  // all object type
+  // all object type 
   {
-    id: '3',
-    songName: `Cartoon - On & On <br><div class="subtitle"> Daniel Levi</div>`,
-    poster: 'img/3.jpg',
-  },
-  {
-    id: '4',
-    songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
-    poster: 'img/4.jpg',
+      id:"3",
+      songName: `Cartoon - On & On <br><div class="subtitle"> Daniel Levi</div>`,
+      poster: "img/3.jpg",
   },
   {
-    id: '5',
-    songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
-    poster: 'img/5.jpg',
+      id:"4",
+      songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
+      poster: "img/4.jpg",
   },
   {
-    id: '6',
-    songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
-    poster: 'img/6.jpg',
+      id:"5",
+      songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
+      poster: "img/5.jpg",
   },
   {
-    id: '7',
-    songName: `Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
-    poster: 'img/7.jpg',
+      id:"6",
+      songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
+      poster: "img/6.jpg",
   },
   {
-    id: '8',
-    songName: `Suna Hai <br><div class="subtitle">Neha Kakker</div>`,
-    poster: 'img/8.jpg',
+      id:"7",
+      songName: `Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
+      poster: "img/7.jpg",
   },
   {
-    id: '9',
-    songName: `Dilber <br><div class="subtitle">Satyameva Jayate</div>`,
-    poster: 'img/9.jpg',
+      id:"8",
+      songName: `Suna Hai <br><div class="subtitle">Neha Kakker</div>`,
+      poster: "img/8.jpg",
   },
   {
-    id: '10',
-    songName: `Duniya <br><div class="subtitle">Luka Chuppi</div>`,
-    poster: 'img/10.jpg',
+      id:"9",
+      songName: `Dilber <br><div class="subtitle">Satyameva Jayate</div>`,
+      poster: "img/9.jpg",
   },
   {
-    id: '11',
-    songName: `Lagdi Lahore Di <br><div class="subtitle">Street Dancer 3D</div>`,
-    poster: 'img/11.jpg',
+      id:"10",
+      songName: `Duniya <br><div class="subtitle">Luka Chuppi</div>`,
+      poster: "img/10.jpg",
   },
   {
-    id: '12',
-    songName: `Putt Jatt Da <br><div class="subtitle">Putt Jatt Da</div>`,
-    poster: 'img/12.jpg',
+      id:"11",
+      songName: `Girls Like You <br><div class="subtitle">Maroon 5</div>`,
+      poster: "img/11.jpg",
   },
   {
-    id: '13',
-    songName: `Baarishein <br><div class="subtitle">Atif Aslam</div>`,
-    poster: 'img/13.jpg',
+      id:"12",
+      songName: `Putt Jatt Da <br><div class="subtitle">Putt Jatt Da</div>`,
+      poster: "img/12.jpg",
   },
   {
-    id: '14',
-    songName: `Vaaste <br><div class="subtitle">Dhvani Bhanushali</div>`,
-    poster: 'img/14.jpg',
+      id:"13",
+      songName: `Baarishein <br><div class="subtitle">Atif Aslam</div>`,
+      poster: "img/13.jpg",
   },
   {
-    id: '15',
-    songName: `Lut Gaye <br><div class="subtitle">Jubin Nautiyal</div>`,
-    poster: 'img/15.jpg',
+      id:"14",
+      songName: `Vaaste <br><div class="subtitle">Dhvani Bhanushali</div>`,
+      poster: "img/14.jpg",
+  },
+  {
+      id:"15",
+      songName: `Lut Gaye <br><div class="subtitle">Jubin Nautiyal</div>`,
+      poster: "img/15.jpg",
+  },
+  {
+      id:'17',
+      songName:` Banjaara <br><div class="subtitle">Mohammed Irfan </div>`,
+      poster: "img/17.jpg"
+  },
+  // all object type 
+  {
+      id:"18",
+      songName: `LOVE DOSE <br><div class="subtitle"> HONEY SINGH </div>`,
+      poster: "img/18.jpg",
+  },
+  {
+      id:"19",
+      songName: `Pehli Nazar Mein <br> <div class="subtitle">Atif Aslam</div>`,
+      poster: "img/19.jpg",
+  },
+  {
+      id:"20",
+      songName: `Waka Waka <br><div class="subtitle">Shakira</div>`,
+      poster: "img/20.jpg",
+  },
+  {
+      id:"21",
+      songName: `Jeena Jeena <br><div class="subtitle">Atif Aslam</div>`,
+      poster: "img/21.jpg",
+  },
+  {
+      id:"22",
+      songName: `Kaun Tujhe <br><div class="subtitle">Palak Muchhal</div>`,
+      poster: "img/22.jpg",
+  },
+  {
+      id:"23",
+      songName: `Kho Gaye Hum Kaha <br><div class="subtitle">Jasleen Royal</div>`,
+      poster: "img/23.jpg",
+  },
+  {
+      id:"24",
+      songName: `Hasi <br><div class="subtitle">Ami Mishra</div>`,
+      poster: "img/24.jpg",
+  },
+  {
+      id:"25",
+      songName: `Kabira <br><div class="subtitle">Rekha Bhardwaj</div>`,
+      poster: "img/25.jpg",
+  },
+  {
+      id:"26",
+      songName: `Let Me Down Slowly <br><div class="subtitle">Alec Benjamin</div>`,
+      poster: "img/26.jpg",
+  },
+  {
+      id:"27",
+      songName: `Bad Guy <br><div class="subtitle">Billie Eilish</div>`,
+      poster: "img/27.jpg",
+  },
+  {
+      id:"28",
+      songName: `Blank Space <br><div class="subtitle">Taylor</div>`,
+      poster: "img/28.jpg",
+  },
+  {
+      id:"29",
+      songName: `Daru Badnaam <br><div class="subtitle">Kamal Kahlon and <br> Param Singh</div>`,
+      poster: "img/29.jpg",
+  },
+  {
+      id:"30",    
+      songName: `De Ghumake <br><div class="subtitle">Shankar Mahadevan</div>`,
+      poster: "img/30.jpg",
   },
   {
     id: '31',
