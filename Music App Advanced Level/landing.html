@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.featured {
+  margin-top: 4rem;
+}
+
+.featured h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.songList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.songItem {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Artists</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to our Music Website</h1>
+      <p>Discover new music and artists</p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+    <section class="featured">
+      <h2>Featured Music</h2>
+      <div class="songList">
+        <div class="songItem">
+          <img src="img/1.jpg" alt="Song Poster">
+          <h5>Song Title</h5>
+        </div>
+        <div class="songItem">
+          <img src="img/2.jpg" alt="Song Poster">
+          <h5>Song Title</h5>
+        </div>
+        <div class="songItem">
+          <img src="img/3.jpg" alt="Song Poster">
+          <h5>Song Title</h5>
+        </div>
+      </div>
+    </section>
+    <section class="artists">
+      <h2>Featured Artists</h2>
+      <div class="artistList">
+        <div class="artistItem">
+          <img src="img/artist1.jpg" alt="Artist Photo">
+          <h5>Artist Name</h5>
+        </div>
+        <div class="artistItem">
+          <img src="img/artist2.jpg" alt="Artist Photo">
+          <h5>Artist Name</h5>
+        </div>
+        <div class="artistItem">
+          <img src="img/artist3.jpg" alt="Artist Photo">
+          <h5>Artist Name</h5>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2021 Music Website</p>
+  </footer>
+</body>
+</html>
