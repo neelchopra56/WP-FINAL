@@ -180,7 +180,7 @@ const songs = [
       {
         id: '36',
         songName: `Anti-Hero <br><div class="subtitle">taylor Swift</div>`,
-        poster: 'img/36.png',
+        poster: 'img/36.',
       },
       {
         id: '37',
@@ -231,77 +231,77 @@ const songs = [
       {
         id: '46',
         songName: ` Kaha tak<br><div class="subtitle">Kr$na</div>`,
-        poster: 'img/46.png',
+        poster: 'img/46.jpg',
       },
       {
         id: '47',
         songName: ` All these years<br><div class="subtitle">Camila Cabello</div>`,
-        poster: 'img/47.png',
+        poster: 'img/47.jpg',
       },
       {
         id: '48',
         songName: ` Scared to be lonely<br><div class="subtitle">Martin Garrix ft. Dua Lipa</div>`,
-        poster: 'img/48.png',
+        poster: 'img/48.jpg',
       },
       {
         id: '49',
         songName: ` Stay together<br><div class="subtitle">Noah Cyrus</div>`,
-        poster: 'img/49.png',
+        poster: 'img/49.jpg',
       },
       {
         id: '50',
         songName: ` Counting stars<br><div class="subtitle">One Republic</div>`,
-        poster: 'img/50.png',
+        poster: 'img/50.jpg',
       },
       {
         id: '51',
         songName: ` Something Big<br><div class="subtitle">Shawn Mendes</div>`,
-        poster: 'img/51.png',
+        poster: 'img/51.jpg',
       },
       {
         id: '52',
         songName: ` Treat you better<br><div class="subtitle">Shawn Mendes</div>`,
-        poster: 'img/52.png',
+        poster: 'img/52.jpg',
       },
       {
         id: '53',
         songName: ` Symphony<br><div class="subtitle">SICK INDIVIDUALS ft. Nevve</div>`,
-        poster: 'img/53.png',
+        poster: 'img/53.jpg',
       },
       {
         id: '54',
         songName: ` Paris<br><div class="subtitle">The chainsmokers</div>`,
-        poster: 'img/54.png',
+        poster: 'img/54.jpg',
       },
       {
         id: '55',
         songName: ` All we know<br><div class="subtitle">The chainsmokers</div>`,
-        poster: 'img/55.png',
+        poster: 'img/55.jpg',
       },
       {
         id: '56',
         songName: ` Somebody to you<br><div class="subtitle">The vamps ft. Demi Lovato</div>`,
-        poster: 'img/56.png',
+        poster: 'img/56.jpg',
       },
       {
         id: '57',
         songName: ` Walk through fire<br><div class="subtitle">Vicetone ft. Meron Ryan</div>`,
-        poster: 'img/57.png',
+        poster: 'img/57.jpg',
       },
       {
         id: '58',
         songName: ` In my blood<br><div class="subtitle">Shawn Mendes</div>`,
-        poster: 'img/58.png',
+        poster: 'img/58.jpg',
       },
       {
         id: '59',
         songName: ` Dreaming alone<br><div class="subtitle">Against the current ft. Taka</div>`,
-        poster: 'img/59.png',
+        poster: 'img/59.jpg',
       },
       {
         id: '60',
         songName: ` Oh Cecilia<br><div class="subtitle">The Vamps ft. Shawn Mendes</div>`,
-        poster: 'img/60.png',
+        poster: 'img/60.jpg',
       },
 ]
 
