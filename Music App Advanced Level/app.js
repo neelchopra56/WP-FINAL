@@ -348,13 +348,13 @@ i = 35;
 Array.from(document.getElementsByClassName('img_play4')).forEach((element)=>{
     // console.log(element.parentElement.children[1]);
     element.childNodes[1].src = songs[i].poster;
-    element.parentElement.children[1].innerHTML = songs[i].songName;
+    element.parentElement.children[1].innerHTML = songs[i].songName;    
     // console.log(element.childNodes[1].src);
     i++;
 })
 
-i = 35;
-Array.from(document.getElementsByClassName('img_play4')).forEach((element)=>{
+i = 44;
+Array.from(document.getElementsByClassName('img_play5')).forEach((element)=>{
     // console.log(element.parentElement.children[1]);
     element.childNodes[1].src = songs[i].poster;
     element.parentElement.children[1].innerHTML = songs[i].songName;
