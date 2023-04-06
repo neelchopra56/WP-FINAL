@@ -179,47 +179,48 @@ const songs = [
       },
       {
         id: '36',
-        songName: `TS <br><div class="subtitle">taylor Swift</div>`,
+        songName: `Anti-Hero <br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/36.png',
       },
       {
         id: '37',
-        songName: ` TS1 <br><div class="subtitle">taylor Swift</div>`,
+        songName: ` Lavender Haze <br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/37.png',
       },
       {
         id: '38',
-        songName: `TS2 <br><div class="subtitle">taylor Swift</div>`,
+        songName: `Dont't blame me <br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/38.png',
       },
       {
         id: '39',
-        songName: ` TS3<br><div class="subtitle">taylor Swift</div>`,
+        songName: ` Blank Space<br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/39.png',
       },
       {
         id: '40',
-        songName: ` TS4<br><div class="subtitle">taylor Swift</div>`,
+        songName: ` Willow <br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/40.png',
       },
+  
       {
         id: '41',
-        songName: ` TS5<br><div class="subtitle">taylor Swift</div>`,
+        songName: ` END GAME<br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/41.png',
       },
       {
         id: '42',
-        songName: ` TS6<br><div class="subtitle">taylor Swift</div>`,
+        songName: ` Delicate<br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/42.png',
       },
       {
         id: '43',
-        songName: ` TS7<br><div class="subtitle">taylor Swift</div>`,
+        songName: ` So it Goes <br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/43.png',
       },
       {
         id: '44',
-        songName: ` TS8<br><div class="subtitle">taylor Swift</div>`,
+        songName: ` King of your heart <br><div class="subtitle">taylor Swift</div>`,
         poster: 'img/44.png',
       },
       {
@@ -295,12 +296,12 @@ const songs = [
       {
         id: '59',
         songName: ` Dreaming alone<br><div class="subtitle">Against the current ft. Taka</div>`,
-        poster: 'img/60.png',
+        poster: 'img/59.png',
       },
       {
         id: '60',
         songName: ` Oh Cecilia<br><div class="subtitle">The Vamps ft. Shawn Mendes</div>`,
-        poster: 'img/59.png',
+        poster: 'img/60.png',
       },
 ]
 
@@ -343,6 +344,15 @@ Array.from(document.getElementsByClassName('img_play3')).forEach((element)=>{
     // console.log(element.childNodes[1].src);
     i++;
 })
+i = 35;
+Array.from(document.getElementsByClassName('img_play4')).forEach((element)=>{
+    // console.log(element.parentElement.children[1]);
+    element.childNodes[1].src = songs[i].poster;
+    element.parentElement.children[1].innerHTML = songs[i].songName;
+    // console.log(element.childNodes[1].src);
+    i++;
+})
+
 i = 35;
 Array.from(document.getElementsByClassName('img_play4')).forEach((element)=>{
     // console.log(element.parentElement.children[1]);
