@@ -15,7 +15,6 @@ const songs = [
         <div class="subtitle">Alan Walker</div>`,
         poster: "img/2.jpg"
     },
-    // all object type 
     {
         id:"3",
         songName: `Cartoon - On & On <br><div class="subtitle"> Daniel Levi</div>`,
